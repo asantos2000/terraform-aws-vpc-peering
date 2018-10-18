@@ -1,9 +1,9 @@
 output "peer_owner_id" {
-  description = "The CIDR block of the VPC"
+  description = "AWS account ID of requester"
   value       = "${module.vpc_peering.peer_owner_id}"
 }
 
 output "peer_vpc_id" {
-  description = "The CIDR block of the VPC"
+  description = "The VPC Peer ID"
   value       = "${module.vpc_peering.peer_vpc_id}"
 }
