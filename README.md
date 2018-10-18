@@ -16,7 +16,7 @@ These types of resources are supported:
 
 ## Usage (hcl)
 
-```json
+```hcl
 provider "aws" {
   region = "us-west-2"
 }
